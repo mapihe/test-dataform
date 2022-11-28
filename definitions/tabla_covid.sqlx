@@ -3,6 +3,6 @@ config {
   name: "covid_incr",
 }
 
-select * from tst_df_max.tst_df_origen
+select * from `ttdata-plygrd-7be2.tst_df_max.datos_origen`
 
 ${when(incremental(), `WHERE Date > (SELECT MAX(Date) FROM ${self()})`) }
