@@ -1,5 +1,5 @@
 {
-  "defaultSchema": "tst-df-max",
+  "defaultSchema": "tst_df_max",
   "assertionSchema": "dataform_assertions",
   "warehouse": "bigquery",
   "defaultDatabase": "ttdata-plygrd-7be2",
